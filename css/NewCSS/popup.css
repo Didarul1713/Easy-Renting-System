@@ -1,0 +1,163 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ input[type="text"], 
+ input[type="password"]{
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 26px;
+	display: inline-block;
+	border:1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+button{
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 26px;
+	margin: 8px 26px;
+	border: none;
+	cursor: pointer;
+	font-size: 26px;
+}
+button:hover{
+	opacity: 0.8;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+.avatar{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%; 
+}
+.model{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+}
+.model-content{
+	background-color: #fefefe;
+	margin: 4% auto 15% auto;
+	border: 1px solid #888;
+	width: 40%;
+	padding-bottom: 30px;
+}
+
+.close{
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover,.close:focus{
+	color: red;
+	cursor: pointer;
+}
+
+.animate{
+	animation: zoom 0.6s;
+}
+@keyframes zoom{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
